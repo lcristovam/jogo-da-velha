@@ -1,0 +1,108 @@
+
+*{
+    font-family: 'Georama', sans-serif;
+}
+body{
+    font-family: sans-serif;
+ 
+    background: linear-gradient(135deg,#0FF0B3,#036ED9);
+    
+    
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+
+.configurador{
+    margin: auto;   
+    padding-top: 5px;
+    border: none;
+    text-align: center;
+   
+}
+
+#tempo{
+    font-size: 24px;
+    color: white;
+    width: 250px;
+    padding-left: 20px;
+   
+    
+   
+   
+   
+}
+.configurador input{
+    padding: 10px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width:160px;
+}
+
+.configurador span{
+    background-color: rgb(231, 229, 229);
+    padding: 9px 10px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    margin: 0px 10px;
+    border-radius: 5px;
+    
+    
+}
+.configurador button{
+    
+    
+    padding: 7px 15px;
+    border: 1px solid #a8a8a8;
+    background-color: #ffffff;
+    border-radius: 3px;
+    background: linear-gradient(135deg,#036ED9, #0FF0B3);
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+table{
+    border: 1px solid black;
+    margin: auto;
+    width: 450px;
+    border-collapse: collapse;
+    
+
+}
+table td {
+    background-color: #FFFFFF;
+    width: 150px;
+    border: 1px solid #a8a8a8;
+    height: 145px;
+    text-align: center;
+    font-size: 96px;   
+    color:rgb(78, 78, 78)
+    
+}
+.msg{
+    width: 580px;
+    border: 1px solid #a8a8a8;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    height: 40px;
+    color: rgb(78, 78, 78);
+    border-radius: 5px;
+
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+    
+   
+}
+
+.second-1{
+    display: flex;
+    
+}

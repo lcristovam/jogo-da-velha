@@ -1,0 +1,73 @@
+
+  <!--/*Sintaxe JQuery*/
+
+  /*   $(seletor/"tag, ID , Classes)*/$
+  
+
+  $(document).ready(function(){
+
+      $("table").click(function(){
+          $("table .123").animate({fontSize:"128px"}, 5000);
+
+      });
+    -->
+
+<!DOCTYPE html>
+<html>
+    <meta charset="PT-br">
+    <head>
+        <title> Jogo da velha</title>
+            <!-- Importando CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!-- Importando JQuery-->
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100;300;400&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="first">
+            <div class="configurador">
+                <div class="msg"></div>
+                <span >X</span><input type="text" name="jogador1" placeholder="Nome jogador 1">
+                <input type="text" name="jogador2" placeholder=" Nome jogador 2"><span>O</span>
+                <br><br>
+                <button id="btn_comecar"> Começar jogo</button>
+                <br>
+                
+                <br>
+            </div>
+        </div>
+        <div class="second">
+
+            <div class="second-1">
+                <table>
+                    <tr>
+                        <td ></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </table>
+                    <div id="tempo">00:00 </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/index.js">
+           
+          
+        </script>
+    </body>
+
+</html>
